@@ -29,6 +29,6 @@ curl -X POST http://localhost/users \
 2) POST запрос обработки результата партии между пользователями
 ```
 curl -X POST http://localhost/match \
--H "Content-Type: application/json" \
--d '{"user_a":"Alice","user_b":"Bob","score_a":1}'
+  -H "Content-Type: application/json" \
+  -d '{"user_a":"Alice","user_b":"Bob","score_a":1}'
 ```
